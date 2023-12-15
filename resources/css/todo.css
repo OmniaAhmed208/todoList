@@ -1,0 +1,18 @@
+:root{
+    --primary: #16216a;
+    --secondary: #eaebf1;
+    --third: #b9bcd2;
+}
+body ,.todo{height: 100vh;}
+.todo section{font-family: math; width:340px; background: var(--secondary); height: 530px;
+    box-shadow:inset 2px 2px 2px #dcdee8, inset -2px -2px 4px #e0e1e6;}
+.todo .img-container{background: var(--third)}
+.todo .started-btn{background: var(--primary)}
+.todo .started-btn:active{background: var(--third);border-color: transparent;}
+.todo .layout{height: 230px; top: -100px;background: var(--third); /* height: 300px;top: -158px; */ }
+.todo .sec-data{top: 0;}
+.swal2-title{font-size: 17px;}
+
+@media (max-width: 280px) {
+    .todo section{width:270px;}
+}
