@@ -13,6 +13,13 @@ body ,.todo{height: 100vh;}
 .todo .sec-data{top: 0;}
 .swal2-title{font-size: 17px;}
 
+.todo_task label{cursor: pointer; background: var(--third);color: var(--primary); padding: 10px; border-radius: 50%;}
+.todo-actions{right: 0;z-index: 1;display: none;margin: -85px 0;}
+.todo-actions :is(.toggle,.remove){margin: 0 0 0 -17px;}
+.todo-actions .edit{margin: 0 0 0 -50px;}
+.taskEditActions i{cursor: pointer;}
+
+.sec4 .todo_task .task:hover .todo-actions{display: block;}
 @media (max-width: 280px) {
     .todo section{width:270px;}
 }
